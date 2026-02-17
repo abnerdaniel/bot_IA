@@ -57,7 +57,7 @@ def generate_response(title):
 
     except Exception as e:
         print(f"Erro ao gerar resposta: {e}")
-        return {"erro": "Não foi possível obter os dados do filme."}
+        return {"erro_execution": "Não foi possível obter os dados do filme."}
 
 # Teste
 if __name__ == "__main__":
